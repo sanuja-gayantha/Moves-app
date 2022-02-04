@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@500;600&display=swap');
+
+
+$body-color: #fff;
+$text-color: #222;
+
+$body-font : 'Poppins', sans-serif;
+$logo-font: 'Permanent Marker', cursive;
+
+$big-font-size: 2rem;
+$h1-font-size: 1.5rem; 
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.125rem; 
+$h4-font-size: .938rem;
+$p-font-size: 1.125rem; 
+$normal-font-size: .938rem; 
+$small-font-size: .813rem;
+$smaller-font-size: .75rem;
+
+$font-weight : ("reguler":400, "medium":500, "bold":600);
+$transition : all 0.3s linear;
+$mobile : 768px;
+
+
+@media screen and (min-width: 968px) {
+        $big-font-size: 3rem;
+        $h1-font-size: 2.25rem;
+        $h2-font-size: 1.5rem;
+        $h3-font-size: 1.25rem;
+        $h4-font-size: 1rem;
+        $p-font-size: 1.25rem;
+        $normal-font-size: 1rem;
+        $small-font-size: .875rem;
+        $smaller-font-size: .813rem;
+  }

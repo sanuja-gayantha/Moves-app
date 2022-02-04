@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moves</title>
+    
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="custom-styles/css/index.css">
+    <!-- fontawesome -->
+    <!-- <script src="https://kit.fontawesome.com/ec97b3f451.js" crossorigin="anonymous"></script> -->
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fab fa-monero"><b>ovies</b></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <!-- search -->
+    <div class="container-fluid">
+        <div class="row jumbotron justify-content-center text-center">
+            <div class="col-xs-12">
+                <h3>Search For Any Move</h3>
+                <form id="searchForm">
+                    <input type="text" class="form-control px-3" id="searchText" placeholder="Search Move">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- moves -->  
+    <div class="container-fluid">
+        <div id="id" class="row"></div>
+    </div>
+
+
+</body>
+
+<!-- Main.js, jQuery ,  Popper.js,  Bootstrap JS -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</html>
